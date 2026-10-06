@@ -8,6 +8,9 @@ interface Props {
 export function CompanyItem({ company, onRemove }: Props) {
   return (
     <li className="company-item">
+      <span className="company-item__avatar" aria-hidden="true">
+        {company.name.charAt(0).toUpperCase()}
+      </span>
       <span className="company-item__name">{company.name}</span>
       <button type="button" className="icon-button" aria-label={`Unblock ${company.name}`} onClick={() => onRemove(company.key)}>
         ×
