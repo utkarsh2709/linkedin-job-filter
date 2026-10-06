@@ -26,4 +26,4 @@ LinkedIn Company Filter is an independent tool and is not affiliated with, endor
 
 ## Contact
 
-Questions: supriyavikramsingh@gmail.com
+Questions: utkarshgupta.mtr@gmail.com
